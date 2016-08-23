@@ -1,0 +1,12 @@
+./objects/sha1.o: ./sha1.c
+	gcc $(CFLAGS) -c -o $@ $^
+./objects/stdsoap2.o: ./stdsoap2.c
+	gcc $(CFLAGS) -c -o $@ $^
+./objects/soapC.o: ./soapC.c
+	gcc $(CFLAGS) -c -o $@ $^
+./objects/main.o: ./main.c
+	gcc $(CFLAGS) -c -o $@ $^
+./objects/duration.o: ./duration.c
+	gcc $(CFLAGS) -c -o $@ $^
+./objects/soapClient.o: ./soapClient.c
+	gcc $(CFLAGS) -c -o $@ $^
